@@ -1,0 +1,22 @@
+package inhatc.cse.spring.di.java_profile;
+
+public class ServerInfoJava {
+    private String ipNum;
+    private String portNum;
+
+    public String getIpNum() {
+        return ipNum;
+    }
+
+    public void setIpNum(String ipNum) {
+        this.ipNum = ipNum;
+    }
+
+    public String getPortNum() {
+        return portNum;
+    }
+
+    public void setPortNum(String portNum) {
+        this.portNum = portNum;
+    }
+}
