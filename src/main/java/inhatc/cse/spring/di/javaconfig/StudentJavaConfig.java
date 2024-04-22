@@ -2,14 +2,14 @@ package inhatc.cse.spring.di.javaconfig;
 
 import java.util.ArrayList;
 
-public class Student {
+public class StudentJavaConfig {
     private String name;
     private int age;
     private ArrayList<String> hobbys;
     private double height;
     private double weight;
 
-    public Student(String name, int age, ArrayList<String> hobbys) {
+    public StudentJavaConfig(String name, int age, ArrayList<String> hobbys) {
         this.name = name;
         this.age = age;
         this.hobbys = hobbys;
